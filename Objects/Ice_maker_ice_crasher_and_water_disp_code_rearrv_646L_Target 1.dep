@@ -1,6 +1,6 @@
 Dependencies for Project 'Ice_maker_ice_crasher_and_water_disp_code_rearrv_646L', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6220000::V6.22::ARMCLANG
-F (.\main.c)(0x67736E2A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/main.o -MMD)
+F (.\main.c)(0x67737984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/main.o -MMD)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x668664AD)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
@@ -13,6 +13,9 @@ I (timebase.h)(0x67736F18)
 I (water_dispenser.h)(0x67736FD6)
 I (debug_parameter.h)(0x67736FD6)
 I (glvars.h)(0x67736FD6)
+I (auger_motor.h)(0x6773760E)
+I (flapper_motor.h)(0x6773769D)
+I (Debug_data.h)(0x67737984)
 F (.\Uart.c)(0x67736E2A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/uart.o -MMD)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x668664AD)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
@@ -40,14 +43,15 @@ I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
 I (timer.h)(0x67736E2A)
 F (.\timer.h)(0x67736E2A)()
-F (.\Debug_data.c)(0x67736E2A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/debug_data.o -MMD)
+F (.\Debug_data.c)(0x67737984)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/debug_data.o -MMD)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x668664AD)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
-I (Debug_data.h)(0x67736E2A)
+I (Debug_data.h)(0x67737984)
 I (Uart.h)(0x67736E2A)
 I (timer.h)(0x67736E2A)
-F (.\Debug_data.h)(0x67736E2A)()
+I (flapper_motor.h)(0x6773769D)
+F (.\Debug_data.h)(0x67737984)()
 F (.\ntc.c)(0x67736F18)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/ntc.o -MMD)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x668664AD)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
@@ -135,6 +139,35 @@ I (disp_comm.h)(0x67736F18)
 I (Icemaker.h)(0x67736E2A)
 I (Uart.h)(0x67736E2A)
 F (.\User_config.h)(0x67737002)()
+F (.\auger_motor.c)(0x6773760E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/auger_motor.o -MMD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (timebase.h)(0x67736F18)
+I (Uart.h)(0x67736E2A)
+I (disp_comm.h)(0x67736F18)
+F (.\auger_motor.h)(0x6773760E)()
+F (.\flapper_motor.c)(0x6773769D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/flapper_motor.o -MMD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (Uart.h)(0x67736E2A)
+I (water_dispenser.h)(0x67736FD6)
+I (timebase.h)(0x67736F18)
+I (flapper_motor.h)(0x6773769D)
+I (disp_comm.h)(0x67736F18)
+F (.\flapper_motor.h)(0x6773769D)()
+F (.\ice_type.c)(0x6773769D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/ice_type.o -MMD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g070xx.h)(0x668664AD)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BF4A8)
+I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x668664AD)
+I (Uart.h)(0x67736E2A)
+I (water_dispenser.h)(0x67736FD6)
+I (timebase.h)(0x67736F18)
+I (flapper_motor.h)(0x6773769D)
+I (auger_motor.h)(0x6773760E)
+I (disp_comm.h)(0x67736F18)
+F (.\ice_type.h)(0x6773769D)()
 F (RTE/Device/STM32G070RBTx/startup_stm32g070xx.s)(0x668664AD)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"STM32G070xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32g070xx.o)
 F (RTE/Device/STM32G070RBTx/system_stm32g0xx.c)(0x668664AD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shohanur/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shohanur/AppData/Local/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="540" -DSTM32G070xx -D_RTE_-o ./objects/system_stm32g0xx.o -MMD)
 I (C:\Users\Shohanur\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x668664AD)

@@ -2,6 +2,7 @@
 #include "Debug_data.h"
 #include "Uart.h"
 #include "timer.h"
+#include "flapper_motor.h"
 
 static volatile int16_t Debug_data_send_timer = 0;
 
@@ -20,14 +21,14 @@ void TIM1_BRK_UP_TRG_COM_IRQHandler(void) {
 
 
 
-
+/*
 void Print_Debug_Data(void){
 	UART_PrintfD_NL ( "timer ",Debug_data_send_timer);
 	UART_PrintfD_NL ( "HFB ",Hall_Feedback_checker_d());
 }
+*/
 
-
-
+/*
 int Hall_Feedback_checker_d(void){                          // This function checks the raw hall feedback checking the input GPIO pin
 	int Hall_Fb = 0;         // Hall feedback
 		if ((GPIOD->IDR & 0b01000)){  // At higher state
@@ -38,7 +39,9 @@ int Hall_Feedback_checker_d(void){                          // This function che
 		}
 	return Hall_Fb;
 }
+*/
 
+/*
 void Motor_Gpio(void){
 	
 	//GPIOB -> ODR |= (1<<13);              
@@ -55,13 +58,13 @@ void Motor_Gpio(void){
 	
 	
 }
-
-
+*/
+/*
 void Debug_Fnc(void){
 	Motor_Gpio();
 }
-
-
+*/
+/*
 void IceMaker_GPIO_Init(void){
 		//For motor controll
 		RCC->IOPENR|=RCC_IOPENR_GPIOBEN;
@@ -89,7 +92,22 @@ void IceMaker_GPIO_Init(void){
 		GPIOB->MODER  &=~ GPIO_MODER_MODE8_1; 
 		GPIOB->MODER  |= GPIO_MODER_MODE8_0;  	//make PB8 as GPIO output
  }
-
+*/
+ void Debug_Data_Init(void){
+	Flapper_Gpio_Init();
+ }
+ 
+ void Debug_Data_Flapper_Motor_Rotation(void){
+ 
+ }
+ 
+ 
+ 
+ void Debug_Data_Handler(void){
+	 Flapper_Motor_Lever_Based_Control();
+	 //Flapper_Motor_Magnet_Based_Control();
+	 //UART_PrintfD_NL ( "Flapper Feedback ",Flapper_Motor_Read_Raw_Feedback());
+ }
 
 
 

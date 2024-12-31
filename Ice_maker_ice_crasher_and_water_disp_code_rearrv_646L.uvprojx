@@ -539,6 +539,36 @@
               <FileType>5</FileType>
               <FilePath>.\User_config.h</FilePath>
             </File>
+            <File>
+              <FileName>auger_motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\auger_motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>auger_motor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\auger_motor.h</FilePath>
+            </File>
+            <File>
+              <FileName>flapper_motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\flapper_motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>flapper_motor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\flapper_motor.h</FilePath>
+            </File>
+            <File>
+              <FileName>ice_type.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ice_type.c</FilePath>
+            </File>
+            <File>
+              <FileName>ice_type.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ice_type.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
